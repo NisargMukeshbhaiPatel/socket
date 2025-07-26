@@ -1,0 +1,37 @@
+{
+  "type": "project",
+  "id": "STUDENT",
+  "name": "$studentTemplate",
+  "description": "$studentDescription",
+  "projectRoles": [
+    {
+      "name": "$supervisor",
+      "isAdmin": true,
+      "perms": []
+    },
+    {
+      "name": "$teamLeader",
+      "isAdmin": false,
+      "perms": ["MANAGE_PRJ_MEMBERS", "MANAGE_PRJ_ROLES", "CREATE_TASKS"]
+    },
+    {
+      "name": "$teamMember",
+      "isAdmin": false,
+      "perms": []
+    }
+  ],
+  "task_statuses": [
+    {
+      "name": "$toDo",
+      "description": "$todoDescription"
+    },
+    {
+      "name": "$inProgress",
+      "description": "$inProgressDescription"
+    },
+    {
+      "name": "$done",
+      "description": "$doneDescription"
+    }
+  ]
+}

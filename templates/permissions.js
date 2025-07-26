@@ -1,0 +1,38 @@
+// Project permissions with i18n keys
+// Make sure to add locale strings with the same KEY
+export const INVITE_FOR_PROJECTS = "INVITE_FOR_PROJECTS";
+export const CREATE_PROJECTS = "CREATE_PROJECTS";
+export const MANAGE_PROJECTS = "MANAGE_PROJECTS";
+export const ADD_MEMBERS = "ADD_MEMBERS";
+export const MANAGE_MEMBERS = "MANAGE_MEMBERS";
+export const MANAGE_ROLES = "MANAGE_ROLES";
+export const VIEW_EXTENSIONS = "VIEW_EXTENSIONS";
+export const MANAGE_EXTENSIONS = "MANAGE_EXTENSIONS";
+
+export const ORG_PERMISSIONS = [
+    CREATE_PROJECTS,
+    MANAGE_PROJECTS,
+    INVITE_FOR_PROJECTS,
+
+    VIEW_EXTENSIONS,
+    MANAGE_EXTENSIONS,
+    
+    ADD_MEMBERS,
+    MANAGE_MEMBERS,
+    MANAGE_ROLES,
+];
+
+export const ADD_PRJ_MEMBERS = "ADD_PRJ_MEMBERS";
+export const MANAGE_PRJ_MEMBERS = "MANAGE_PRJ_MEMBERS";
+export const MANAGE_PRJ_ROLES = "MANAGE_PRJ_ROLES";
+export const CREATE_TASKS = "CREATE_TASKS";
+export const MANAGE_TASKS = "MANAGE_TASKS";
+
+export const PRJ_PERMISSIONS = [
+    ADD_PRJ_MEMBERS,
+    MANAGE_PRJ_MEMBERS,
+    MANAGE_PRJ_ROLES,
+
+    CREATE_TASKS,
+    MANAGE_TASKS,
+];

@@ -1,0 +1,43 @@
+{
+  "type": "organization",
+  "id": "UNIVERSITY",
+  "name": "$universityTemplate",
+  "description": "$universityDescription",
+  "orgRoles": [
+    {
+      "name": "$admin",
+      "isAdmin": true,
+      "perms": [],
+      "color": "hsl(210, 60%, 70%)"
+    },
+    {
+      "name": "$professor",
+      "isAdmin": false,
+      "perms": ["MANAGE_PROJECTS", "INVITE_FOR_PROJECTS"],
+      "color": "hsl(45, 80%, 80%)"
+    },
+    {
+      "name": "$student",
+      "isAdmin": false,
+      "perms": [],
+      "color": "hsl(140, 60%, 75%)"
+    }
+  ],
+  "projectTemplates": ["STUDENT"],
+  "extensions": [
+    {
+      "id": "AUTO_ALLOCATION",
+      "config": {
+        "reason": "$autoAllocationReason",
+        "orgRole": "$professor",
+        "projectRole": "$supervisor",
+        "skills": [
+          "machine learning",
+          "data science",
+          "web development",
+          "android development"
+        ]
+      }
+    }
+  ]
+}

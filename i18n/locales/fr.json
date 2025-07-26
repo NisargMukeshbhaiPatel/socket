@@ -1,0 +1,137 @@
+{
+  "Auth": {
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "signup": "S'inscrire",
+    "invalidCredentials": "Email or password is incorrect",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "dontHaveAccount": "Vous n'avez pas de compte ?",
+    "emailPlaceholder": "Entrez votre email",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "namePlaceholder": "Entrez votre nom",
+    "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+    "fillAllFields": "Veuillez remplir tous les champs",
+    "passwordMismatch": "Les mots de passe ne correspondent pas"
+  },
+
+  "Dashboard": {
+    "workspaces": "Espaces de travail",
+    "createOrg": "Créer une organisation",
+    "settings": "Paramètres",
+    "changeLanguage": "Changer la langue",
+    "logout": "Se déconnecter",
+    "toggleTheme": "Changer le thème",
+
+    "yourOrgs": "Vos organisations",
+    "newOrg": "Nouvelle organisation",
+    "orgInvites": "Invitations d'organisation",
+    "decline": "Refuser",
+    "accept": "Accepter",
+    "noInvites": "Aucune invitation pour le moment",
+    "noInvitesDesc": "Vous n'avez actuellement aucune invitation d'organisation en attente."
+  },
+
+  "CreateOrgForm": {
+    "createNewOrg": "Créer une nouvelle organisation",
+    "setupOrgProfile": "Configurer le profil de votre organisation",
+    "orgName": "Nom de l'organisation",
+    "orgDescription": "Description de l'organisation",
+    "orgIcon": "Icône de l'organisation",
+    "orgIconAlt": "Icône de l'organisation",
+    "changeIcon": "Changer l'icône",
+    "createOrg": "Créer une organisation",
+    "invalidImage": "Veuillez télécharger un fichier image valide (JPEG, PNG ou WebP).",
+    "fileSizeExceeded": "La taille du fichier dépasse la limite de 5 Mo.",
+    "imageProcessingError": "Erreur lors du traitement de l'image.",
+    "orgNameError": "Le nom de l'organisation doit comporter au moins 4 caractères.",
+
+    "selectOrgTemplate": "Sélectionner un modèle d'organisation",
+    "optional": "(Optionnel)",
+    "chooseBestTemplate": "Choisissez un modèle qui correspond le mieux à la structure de votre organisation",
+
+    "dialogDescription": "Cette boîte de dialogue vous permet de gérer les rôles et les permissions.",
+    "editRole": "Modifier le rôle",
+    "addNewRole": "Ajouter un nouveau rôle",
+    "roleName": "Nom du rôle",
+    "roleColor": "Couleur du rôle",
+    "admin": "Administrateur (toutes les permissions)",
+    "permission": "Permission",
+    "addCustomRole": "Ajouter un rôle personnalisé",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  },
+
+  "OrgSettings": {
+    "organizationSettings": "Paramètres de l'Organisation",
+    "manageMembers": "Gérer les membres",
+    "updateOrgProfile": "Mettez à jour le profil et les paramètres de votre organisation",
+    "orgName": "Nom de l'Organisation",
+    "orgDescription": "Description de l'Organisation",
+    "orgIconAlt": "Icône de l'Organisation",
+    "changeIcon": "Changer l'Icône",
+    "invalidImage": "Type d'image non valide",
+    "fileSizeExceeded": "La taille du fichier dépasse la limite de 5 Mo",
+    "imageProcessingError": "Erreur de traitement de l'image",
+    "organizationUpdated": "Organisation mise à jour avec succès",
+    "updateError": "Échec de la mise à jour de l'organisation",
+    "updating": "Mise à jour en cours",
+    "updateOrg": "Mettre à jour l'Organisation"
+  },
+
+  "Permissions": {
+    "CREATE_PROJECT": "Créer un projet",
+    "MANAGE_PROJECTS": "Gérer les projets",
+    "INVITE_FOR_PROJECTS": "Inviter pour des projets",
+
+    "VIEW_EXTENSIONS": "Voir les extensions",
+    "MANAGE_EXTENSIONS": "Gérer les extensions",
+
+    "MANAGE_MEMBERS": "Gérer les membres",
+    "MANAGE_ROLES": "Gérer les rôles",
+
+    "ADD_PRJ_MEMBERS": "Ajouter des membres de projet",
+    "MANAGE_PRJ_MEMBERS": "Gérer les membres du projet",
+    "MANAGE_PRJ_ROLES": "Gérer les roles du projet",
+    "CREATE_TASKS": "Créer des tâches",
+    "MANAGE_TASKS": "Gérer les tâches"
+  },
+
+  "PermissionsDescription": {
+    "CREATE_PROJECT": "Permet de créer des projets.",
+    "MANAGE_PROJECTS": "Permet de créer, modifier et supprimer des projets.",
+    "INVITE_FOR_PROJECTS": "Permet d'inviter des membres à rejoindre un projet.",
+
+    "VIEW_EXTENSIONS": "Permet de voir les extensions installées sur un projet.",
+    "MANAGE_EXTENSIONS": "Permet de gérer les extensions installées sur un projet.",
+
+    "MANAGE_MEMBERS": "Permet de gérer les membres d'un projet.",
+    "MANAGE_ROLES": "Permet de gérer les rôles et les permissions d'un projet.",
+
+    "ADD_PRJ_MEMBERS": "Permet d'ajouter des membres à un projet.",
+    "MANAGE_PRJ_MEMBERS": "Permet de gérer les membres d'un projet.",
+    "MANAGE_PRJ_ROLES": "Permet de gérer les rôles d'un projet.",
+    "CREATE_TASKS": "Permet de créer des tâches dans un projet.",
+    "MANAGE_TASKS": "Permet de gérer les tâches dans un projet."
+  },
+
+  "Database": {
+    "autoAllocation": "Socket Auto Allocation",
+    "universityTemplate": "Modèle universitaire",
+    "universityDescription": "Un modèle d'organisation pour les étudiants et les professeurs des universités pour gérer leurs projets universitaires.",
+    "autoAllocationReason": "Pour l'allocation automatique des professeurs aux projets en fonction de leurs compétences",
+    "admin": "Admin",
+    "professor": "Professeur",
+    "student": "Étudiant",
+    "studentTemplate": "Modèle de projet étudiant",
+    "studentDescription": "Un modèle de projet pour les étudiants et les superviseurs (professeurs) pour gérer leurs projets.",
+    "supervisor": "Superviseur",
+    "teamLeader": "Chef d'équipe",
+    "teamMember": "Membre de l'équipe",
+    "toDo": "À faire",
+    "todoDescription": "Tâches à réaliser",
+    "inProgress": "En cours",
+    "inProgressDescription": "Tâches en cours de réalisation",
+    "done": "Terminé",
+    "doneDescription": "Tâches terminées"
+  }
+}

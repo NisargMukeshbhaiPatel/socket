@@ -1,0 +1,165 @@
+{
+  "Auth": {
+    "login": "Login",
+    "register": "Register",
+    "signup": "Sign Up",
+    "invalidCredentials": "Email or password is incorrect",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "namePlaceholder": "Enter your name",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "fillAllFields": "Please fill all fields",
+    "passwordMismatch": "Passwords do not match",
+    "accountAlreadyExists": "Already logged in with this email"
+  },
+
+  "Dashboard": {
+    "workspaces": "Workspaces",
+    "createOrg": "Create Organization",
+    "settings": "Settings",
+    "changeLanguage": "Change Language",
+    "logout": "Logout",
+    "toggleTheme": "Toggle Theme",
+
+    "yourOrgs": "Your Organizations",
+    "newOrg": "New Organization",
+    "orgInvites": "Organization Invites",
+    "decline": "Decline",
+    "accept": "Accept",
+    "noInvites": "No invites yet",
+    "noInvitesDesc": "You don't have any pending organization invites at the moment.",
+    "switchAccount": "Switch Account",
+    "accountSettings": "Account Settings",
+    "addAccount": "Add Account",
+    "name": "Name",
+    "saveChanges": "Save Changes"
+  },
+
+  "CreateOrgForm": {
+    "createNewOrg": "Create New Organization",
+    "setupOrgProfile": "Set up your organization's profile",
+    "orgName": "Organization Name",
+    "orgDescription": "Organization Description",
+    "orgIcon": "Organization Icon",
+    "orgIconAlt": "Organization icon",
+    "changeIcon": "Change Icon",
+    "createOrg": "Create Organization",
+    "invalidImage": "Please upload a valid image file (JPEG, PNG, or WebP).",
+    "fileSizeExceeded": "File size exceeds the 5MB limit.",
+    "imageProcessingError": "Error processing the image.",
+    "orgNameError": "Organization Name must be at least 4 characters long.",
+
+    "selectOrgTemplate": "Select Organization Template",
+    "optional": "(Optional)",
+    "chooseBestTemplate": "Choose a template that best fits your organization structure",
+
+    "dialogDescription": "This dialog allows you to manage roles and permission.",
+    "editRole": "Edit Role",
+    "addNewRole": "Add New Role",
+    "roleName": "Role Name",
+    "roleColor": "Role Color",
+    "admin": "Admin (All Permission)",
+    "permission": "Permission",
+    "addCustomRole": "Add Custom Role",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+
+  "OrgSettings": {
+    "organizationSettings": "Organization Settings",
+    "manageMembers": "Manage Members",
+    "updateOrgProfile": "Update your organization's profile and settings",
+    "orgName": "Organization Name",
+    "orgDescription": "Organization Description",
+    "orgIconAlt": "Organization Icon",
+    "changeIcon": "Change Icon",
+    "invalidImage": "Invalid image type",
+    "fileSizeExceeded": "File size exceeds 5MB limit",
+    "imageProcessingError": "Error processing image",
+    "organizationUpdated": "Organization updated successfully",
+    "updateError": "Failed to update organization",
+    "updating": "Updating Organization",
+    "updateOrg": "Update Organization"
+  },
+
+  "Permissions": {
+    "CREATE_PROJECTS": "Create Projects",
+    "MANAGE_PROJECTS": "Manage Projects",
+    "INVITE_FOR_PROJECTS": "Invite for Projects",
+
+    "VIEW_EXTENSIONS": "View Extensions",
+    "MANAGE_EXTENSIONS": "Manage Extensions",
+
+    "ADD_MEMBERS": "Add Members",
+    "MANAGE_MEMBERS": "Manage Members",
+    "MANAGE_ROLES": "Manage Roles",
+
+    "ADD_PRJ_MEMBERS": "Add Project Members",
+    "MANAGE_PRJ_MEMBERS": "Manage Project Members",
+    "MANAGE_PRJ_ROLES": "Manage Project Roles",
+    "CREATE_TASKS": "Create Tasks",
+    "MANAGE_TASKS": "Manage Tasks"
+  },
+
+  "PermissionsDescription": {
+    "CREATE_PROJECTS": "Create new projects",
+    "MANAGE_PROJECTS": "Update, and delete projects",
+    "INVITE_FOR_PROJECTS": "Request to join projects, instead of directly allowing adding them to projects",
+
+    "VIEW_EXTENSIONS": "View and use extensions installed in the organization",
+    "MANAGE_EXTENSIONS": "Install, update, and remove extensions in the organization",
+
+    "ADD_MEMBERS": "Add new members to the organization",
+    "MANAGE_MEMBERS": "Add, remove, and update roles of members in the organization",
+    "MANAGE_ROLES": "Create, update, and delete roles in the organization",
+
+    "ADD_PRJ_MEMBERS": "Add new members to the project",
+    "MANAGE_PRJ_MEMBERS": "Add, remove, and update roles of members in the project",
+    "MANAGE_PRJ_ROLES": "Create, update, and delete roles in the project",
+    "CREATE_TASKS": "Create new tasks in the project",
+    "MANAGE_TASKS": "Update, and delete tasks in the project"
+  },
+
+  "Database": {
+    "autoAllocation": "Socket Auto Allocation",
+    "universityTemplate": "University Template",
+    "universityDescription": "An organization template for universities students and professors to manage their university projects.",
+    "autoAllocationReason": "For auto allocating of professors to projects based on their skills",
+    "admin": "Admin",
+    "professor": "Professor",
+    "student": "Student",
+    "studentTemplate": "Student Project Template",
+    "studentDescription": "A project template for students and supervisors (professors) to manage their projects.",
+    "supervisor": "Supervisor",
+    "teamLeader": "Team Leader",
+    "teamMember": "Team Member",
+    "toDo": "To Do",
+    "todoDescription": "Tasks that need to be done",
+    "inProgress": "In Progress",
+    "inProgressDescription": "Tasks that are currently being worked on",
+    "done": "Done",
+    "doneDescription": "Tasks that have been completed"
+  },
+
+  "Account": {
+    "accountSettings": "Account Settings",
+    "userAvatar": "User Avatar",
+    "changeAvatar": "Change Avatar",
+    "name": "Name",
+    "email": "Email",
+    "saveChanges": "Save Changes",
+    "updating": "Updating...",
+    "settingsUpdated": "Account settings updated successfully",
+    "invalidImage": "Please upload a valid image file (JPEG, PNG, or WebP)",
+    "fileSizeExceeded": "File size exceeds 5MB limit",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "changePassword": "Change Password",
+    "passwordChanged": "Password updated successfully",
+    "passwordMismatch": "New passwords do not match",
+    "incorrectPassword": "Current password is incorrect"
+  }
+}
